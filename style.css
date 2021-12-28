@@ -5,3 +5,61 @@
 .inl-bk {
   display: inline-block;
 }
+
+body {
+  margin: 0px;
+}
+
+main {
+  height: 100vh;
+  padding: 8vh 0;
+  background: rgb(86, 108, 126);
+  background: radial-gradient(
+    circle,
+    rgba(86, 108, 126, 1) 0%,
+    rgba(45, 59, 74, 1) 78%
+  );
+}
+
+.user-card {
+  max-width: 500px;
+  min-width: 330px;
+  width: 50%;
+  max-height: 780px;
+  min-height: 560px;
+  height: 100%;
+  background-color: white;
+  margin: 0px auto;
+  border-radius: 3em;
+  overflow: hidden;
+}
+
+.card-header {
+  background-image: url(./imgs/bg.jpg);
+  height: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -20px;
+}
+
+.avatar-wrapper {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.img-avatar-zoom {
+  height: 100%;
+  width: 100%;
+  margin-top: -50%;
+  border-radius: 50%;
+  border: 10px solid white;
+  overflow: hidden;
+}
+
+.img-avatar {
+  width: 150%;
+  height: 150%;
+  object-fit: cover;
+  object-position: -170px -10px;
+}
