@@ -11,12 +11,16 @@ body {
 
   font-family: sans-serif;
   font-size: 19px;
+  
 }
 
 main {
   height: 100vh;
 
   padding: 8vh 0;
+
+  font-size: 0;
+  text-align: center;
 
   background: rgb(86, 108, 126);
   background: radial-gradient(
@@ -29,31 +33,43 @@ main {
 .user-card {
   width: 50%;
   max-width: 500px;
-  min-width: 350px;
+  min-width: 400px;
+
   height: 100%;
   max-height: 100%;
-  /* proverit min height */
-  min-height: 500px;
+  min-height: 460px;
 
-  margin: 0px auto;
+  font-size: 19px;
 
   background-color: white;
   border-radius: 3em;
   overflow: hidden;
 }
 
-.card-header {
-  height: 35%;
+.user-card-first {
+  margin-right: 5vw;
+}
 
-  background-image: url(./imgs/bg.jpg);
+.card-header {
+  height: 33%;
+  
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.card-header-first {
+  background-image: url(./imgs/bg.jpg);
   background-position: center;
 }
 
+.card-header-second {
+  background-image: url(./imgs/bg2.jpg);
+  background-position: 0px -70px;
+}
+
 .avatar {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height:300px;
 
   margin: 0 auto;
 }
@@ -69,12 +85,18 @@ main {
   overflow: hidden;
 }
 
-.avatar-img {
-  width: 150%;
+.avatar-img-first {
   height: 150%;
 
   object-fit: cover;
-  object-position: -170px -10px;
+  object-position: -200px -10px;
+}
+
+.avatar-img-second {
+  width: 105%;
+
+  object-fit: cover;
+  object-position: 0px -50px;
 }
 
 .card-content {
@@ -107,4 +129,17 @@ main {
 
   margin: 0px;
   padding-top: 25px;
+}
+
+.info-social {
+  padding-top: 30px;
+}
+
+.info-link {
+  width: 24px;
+  height: 24px;
+}
+
+.twitter {
+  margin: 0 8px;
 }
