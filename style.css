@@ -112,15 +112,27 @@ main {
   text-transform: uppercase;
   letter-spacing: 3px;
 
-  margin: 0px;
+  margin: 0px auto;
   padding-top: 25px;
   padding-bottom: 5px;
+
+  max-width: 350px ;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .info-contact {
   font-size: 24px;
   color: rgb(153, 152, 152);
   letter-spacing: 2px;
+
+  margin: 0px auto;
+
+  max-width: 250px ;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .info-text {
@@ -128,18 +140,22 @@ main {
   line-height: 1.4em;
 
   margin: 0px;
-  padding-top: 25px;
+  padding-top: 30px;
 }
 
 .info-social {
+  font-size: 0px;
+  
   padding-top: 30px;
 }
 
 .info-link {
+  font-size: 19px;
+
   width: 24px;
   height: 24px;
 }
 
 .twitter {
-  margin: 0 8px;
+  margin: 0 10px;
 }
